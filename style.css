@@ -1,0 +1,80 @@
+BODY {
+}
+
+table {
+    /*  color:white;*/
+    border: dashed;
+    border-width: 1px;
+    text-align: center;
+}
+
+    table.studentHeader, table.studentHeader tr, table.studentHeader td {
+        border: none;
+        color: black;
+        background-color: white;
+        width: 60%;
+        text-align:left;
+    }
+    table.studentHeader td.column1 { width:15%; }
+
+th, td {
+    width: 75px;
+    border-width: 1px;
+    border: groove;
+    color: white
+}
+
+th {
+    font-weight: bold
+}
+
+    th.emptyCell {
+        background-color: white;
+        color: white;
+    }
+
+tr.odd {
+    background-color: brown;
+}
+
+tr.even {
+    background-color: olive
+}
+
+tr.footer, td.footer {
+    color: brown;
+}
+
+td#firstCol {
+    font-style: italic;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+div.outer-content {
+    text-align: left;
+    align-content: center;
+    position: relative;
+    top: 20px;
+    background-color: lightpink;
+    width: 75%;
+    padding: 4px;
+}
+
+div.inner-content {
+    margin: auto;
+    background-color: lightblue;
+    width: 75%;
+}
+
+form, p {
+    padding: 5px;
+}
+
+p {
+    border: solid;
+    border-width: 1px;
+    width: 80%;
+}
